@@ -5,7 +5,9 @@
     <div id="wrapper">
         <?php include 'header.php'; ?>
         <main>
-
+			<div class="container">
+				
+			</div>
         </main>
         <?php include 'footer.php';?>
         <?php include 'script.php'; ?>
