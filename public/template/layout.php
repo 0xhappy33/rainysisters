@@ -16,3 +16,10 @@
 
 
 </head>
+
+    <!-- read -->
+    <link rel="stylesheet" href="../css/read.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+	<link rel="stylesheet" href="../css/animate.css">
+    <!-- end read -->
+</head>
