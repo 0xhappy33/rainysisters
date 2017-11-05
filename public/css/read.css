@@ -1,0 +1,294 @@
+*{
+	font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 1.58;
+	letter-spacing: -.003em;
+    word-wrap: break-word;
+
+}
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    background: #fafafa !important;;
+}
+a{
+    text-decoration: none;
+
+}
+
+a:hover{
+    text-decoration: none;
+    
+}
+/*avartar*/
+
+.avatar-image--small {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+
+}
+.avatar-image {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+}
+h1{
+    font-weight: 600px;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+img {
+    border: 0;
+}
+/*noi dung*/
+
+
+#wrapper {
+    margin: 20px 0px;
+}
+
+#wrapper .name-user{
+    font-size: 13px;
+    color: #111111;
+    font-weight: 550;
+    font-family: sans-serif;
+}
+#wrapper .reviewer-info{
+    font-size: 16px;
+}
+#wrapper .detail-user{
+    font-size: 14px;
+    opacity: 0.8;
+}
+/* hinh anh*/
+#wrapper .pic{
+    text-align: center;
+    margin: 15px 0px auto;
+}
+/*main- content*/
+#wrapper .main-content p, #wrapper .main-content a{
+    margin-top: 20px;
+   
+}
+/* content-review*/
+#wrapper h3{
+    font-size: 35px;
+    font-family: "Acme";
+}
+
+#wrapper .main-content .content-review em{
+   font-style: italic;
+}
+
+
+#wrapper .main-content .content-review .note-hight-light{
+  background-color: rgba(12,242,143,.2);
+}
+
+#wrapper .main-content .content-review .note-hight-light:hover{
+  background-color: rgba(12,235,160,.9);
+   cursor:pointer;
+}
+
+
+
+/*end content-review*/
+
+
+#wrapper hr.section-divider {
+    margin-top: 52px;
+    margin-bottom: 42px;
+    color: #330000;
+    text-align: center;
+   
+}
+
+
+#wrapper .note h4{
+    font-family: 'Rokkitt';
+    font-size: 20px;
+    font-weight: bold;
+}
+/* tag*/
+
+#wrapper .tag  li{
+    border-radius: 5px;
+    background-color: #DDDDDD;
+    margin: 10px;
+    display: inline;
+    padding: 5px;
+   
+}
+
+#wrapper .tag  li a{
+   font-size: 14px;
+   line-height: 0.5px;
+   text-decoration: none;
+   color: rgba(0,0,0,.68);
+}
+
+#wrapper .tag  li:hover{
+   background-color: #777777;
+}
+
+#wrapper .tag  li:hover a{
+   color: white;
+   text-decoration: none;
+}
+/* sociale*/
+
+.like{
+    border-radius: 100%;
+    background-color: white;
+    display: inline;
+}
+
+/*.like:hover{
+    border: solid 2px #00FFFF ;
+}*/
+
+.like, .heart{
+  display: inline-block;
+}
+.like span{
+   
+    font-size: 30px;
+    padding-top: 5px;
+    margin-left: 10px;
+    color: #33CCCC;
+
+}
+ .like span:hover{
+    color: #00FFFF;
+}
+
+ .qual{
+  font-size: 14px;
+}
+
+.heart span{
+   
+    font-size: 30px;
+    padding-top: 5px;
+    margin-left: 10px;
+    color: #33CCCC;
+}
+
+.like span:hover{
+    transform:  scale(1.5);
+    color: #003333;
+}
+.heart span:hover{
+    transform:  scale(1.5);
+    color: #EE0000;
+}
+/*comment*/
+.comment{
+  margin: 20px 0px auto;
+}
+.comment textarea{
+  background: #fff;
+  box-shadow: -5px -5px 5px #666;
+  padding: 20px 0px 0px 20px;
+  border: none;
+  border-radius: 5px;
+}
+.cmt h3{
+  font-size: 15px;
+  font-family: "Acme";
+}
+
+/* lam sao de hinh nhay vao khu comment*/
+.comment img, .text-cmt img{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.text-cmt{
+  margin-top: 20px;
+}
+.text-cmt .user-name{
+  color: #00CC99;
+  font-size: 13px;
+  font-family:'Pacifico'; 
+}
+.text-cmt .time-cmt{
+  font-size: 13px;
+}
+
+/
+
+/*content-bottom*/
+#content-bottom{
+  background-color: #fafafa;
+}
+/*rel-car*/
+.rel-cat {
+  margin-top: 20px;
+}
+
+.rel-cat .item-review{
+  border-radius: 5px;
+}
+
+.bac{
+  width: 100%;
+  height: 100px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom: 1px solid rgba(0,0,0,.0785) !important;
+  background-position: 50% 50% !important;
+  background-origin: border-box !important;
+  background-size: cover !important;
+}
+
+
+.rel-cat .sum-cont{
+  background-color: white;
+}
+
+
+.sum-cont .content-relate-review{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.sum-cont .cont-tile-rel-review{
+  color: #CCCCCC;
+  font-size: 15px;
+  font-style: italic;
+}
+/*end rel-cat*/
+
+/*up to head*/
+#cuon{
+    display:block;
+    width:40px;
+    height:40px;
+    position:fixed;
+    bottom:15px;
+    right:15px;
+    border-radius: 10px;
+    border: 3px solid #ccc;
+}
+.sc{
+ font-size: 25px;
+ text-align: center;
+ padding-top: 4px; 
+}
+
+/*list-social*/
+.list-social {
+  position: fixed;
+  left: 30px;
+  top: 200px;
+}
+.list-social ul li{
+  list-style: none;
+}
