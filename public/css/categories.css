@@ -1,0 +1,23 @@
+.explore-topics{
+    font-size: 34px;
+}
+.title-topics{
+    margin-bottom: 20px;
+}
+
+.field-book-body{
+    margin-top: 20px;
+}
+
+.category-of-field .line-of-categories article:hover{
+    cursor: pointer;
+}
+article.card{
+    margin-top: 10px;
+}
+article.card:hover{
+    cursor: pointer;
+}
+.card-title, .text-muted, .info-card-title{
+    color: #ffffff;
+}
