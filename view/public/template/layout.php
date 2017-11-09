@@ -24,6 +24,8 @@
      <link rel="stylesheet" href="../css/signup.css">
     <!-- end login -->
     <!-- categories -->
-    <link rel="stylesheet" href="../css/categories.css">
     <!-- end categories -->
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/categories.css">
 </head>
