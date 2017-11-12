@@ -1,26 +1,20 @@
 <!doctype html>
 <html lang="en">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
-<link rel="stylesheet" href="../css/home.css">
 <?php include 'layout.php'; ?>
 
-<body>
-<div id="wrapper">
-    <?php include 'header.php'; ?>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <div class="prod-title">
-                    <h2>Popular on Medium</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="row" id="wrap-row">
+<body>    
+    <div id="wrapper">
+        <div class="container">
+        <?php include 'header.php'; ?>
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+				<div class="prod-title">
+                    <h2 >Popular on Medium</h2>
+                </div> 
+			</div>
+		</div>                                                                                                         
+		<div  class="row">
+            <div  class="row" id="wrap-row">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <div class="wrap-content clearfix">
                         <div class="img">
