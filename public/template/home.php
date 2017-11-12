@@ -1,17 +1,11 @@
 <!doctype html>
 <html lang="en">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
-  <link rel="stylesheet" href="../css/home.css">
 <?php include 'layout.php'; ?>
 
-<body>
+<body>    
     <div id="wrapper">
+        <div class="container">
         <?php include 'header.php'; ?>
-        
-			<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
 				<div class="prod-title">
@@ -335,8 +329,8 @@
             </div>
         </div>
 	</div>
-  
-        <?php include 'footer.php';?>
+
+        <!-- <?php include 'footer.php';?> -->
         <?php include 'script.php'; ?>
     </div>
 </body>

@@ -63,9 +63,10 @@
 .author span.fa  {
     font-size: 20px;
 }
-.prod-title{
+.prod-title {
     position: relative;
     margin-bottom: 39px;
+    margin-top: 60px;
 }
 .prod-title h2 {
     display: inline-block;
