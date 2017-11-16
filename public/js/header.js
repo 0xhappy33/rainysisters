@@ -1,3 +1,4 @@
+<<<<<<< 49a6c8a1f8e858c0028fd48a44955e681aadde29
 $(function() { 
 
     $('a[href="#toggle-search"], .navbar-bootsnipp .bootsnipp-search .input-group-btn > .btn[type="reset"]').on('click', function(event) {
@@ -19,41 +20,8 @@ $(function() {
             $('a[href="#toggle-search"]').trigger('click');
         }
     });
-    
-});
-$(document).ready(function(){
-    $(".dropdown").hover(            
-        function() {
-            $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideDown("400");
-            $(this).toggleClass('open');        
-        },
-        function() {
-            $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideUp("400");
-            $(this).toggleClass('open');       
-        }
-    );
-});
 
-
-
-// search 
-    $(function () {
-        // Remove Search if user Resets Form or hits Escape!
-        $('body, .navbar-collapse form[role="search"] button[type="reset"]').on('click keyup', function(event) {
-            console.log(event.currentTarget);
-            if (event.which == 27 && $('.navbar-collapse form[role="search"]').hasClass('active') ||
-                $(event.currentTarget).attr('type') == 'reset') {
-                closeSearch();
-            }
-        });
-
-        function closeSearch() {
-            var $form = $('.navbar-collapse form[role="search"].active')
-            $form.find('input').val('');
-            $form.removeClass('active');
-        }
-
-        // Show Search if form is not active // event.preventDefault() is important, this prevents the form from submitting
+     // Show Search if form is not active // event.preventDefault() is important, this prevents the form from submitting
         $(document).on('click', '.navbar-collapse form[role="search"]:not(.active) button[type="submit"]', function(event) {
             event.preventDefault();
             var $form = $(this).closest('form'),
@@ -72,3 +40,18 @@ $(document).ready(function(){
             closeSearch()
         });
     });
+    
+});
+$(document).ready(function(){
+    $(".dropdown").hover(            
+        function() {
+            $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideDown("400");
+            $(this).toggleClass('open');        
+        },
+        function() {
+            $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideUp("400");
+            $(this).toggleClass('open');       
+        }
+    );
+});
+
