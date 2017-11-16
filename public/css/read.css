@@ -1,9 +1,9 @@
 *{
-	font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
-	font-style: normal;
-	font-size: 18px;
-	line-height: 1.58;
-	letter-spacing: -.003em;
+  font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.58;
+  letter-spacing: -.003em;
     word-wrap: break-word;
 
 }
@@ -20,7 +20,7 @@ a{
 
 a:hover{
     text-decoration: none;
-    
+
 }
 /*avartar*/
 
@@ -73,7 +73,7 @@ img {
 /*main- content*/
 #wrapper .main-content p, #wrapper .main-content a{
     margin-top: 20px;
-   
+
 }
 /* content-review*/
 #wrapper h3{
@@ -105,7 +105,7 @@ img {
     margin-bottom: 42px;
     color: #330000;
     text-align: center;
-   
+
 }
 
 
@@ -122,7 +122,7 @@ img {
     margin: 10px;
     display: inline;
     padding: 5px;
-   
+
 }
 
 #wrapper .tag  li a{
@@ -153,10 +153,11 @@ img {
 }*/
 
 .like, .heart{
-  display: inline-block;
+  display: inline;
+  float:left;
 }
 .like span{
-   
+
     font-size: 30px;
     padding-top: 5px;
     margin-left: 10px;
@@ -172,7 +173,7 @@ img {
 }
 
 .heart span{
-   
+
     font-size: 30px;
     padding-top: 5px;
     margin-left: 10px;
@@ -193,10 +194,11 @@ img {
 }
 .comment textarea{
   background: #fff;
-  box-shadow: -5px -5px 5px #666;
+ /* box-shadow: -5px -5px 5px #666;*/
   padding: 20px 0px 0px 20px;
   border: none;
   border-radius: 5px;
+  border: 1px solid #0f0e0e;
 }
 .cmt h3{
   font-size: 15px;
@@ -212,11 +214,12 @@ img {
 
 .text-cmt{
   margin-top: 20px;
+  border-bottom: 1px solid #772086;
 }
 .text-cmt .user-name{
   color: #00CC99;
   font-size: 13px;
-  font-family:'Pacifico'; 
+  font-family:'Pacifico';
 }
 .text-cmt .time-cmt{
   font-size: 13px;
@@ -280,7 +283,7 @@ img {
 .sc{
  font-size: 25px;
  text-align: center;
- padding-top: 4px; 
+ padding-top: 4px;
 }
 
 /*list-social*/
