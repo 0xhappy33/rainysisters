@@ -2,7 +2,7 @@
 <html lang="en">
 <?php include 'layout.php'; ?>
 <body>
-
+	
 	<div id="top">
 		<?php include 'header.php'; ?>
 	</div>
@@ -11,7 +11,7 @@
 
 
 		<div class="row">
-			<div class="col-md-2">
+			<div class="col-md-2 col-xs-2 col-sm-2 col-lg-2">
 			<div class = "list-social" id = "list-social">
 				<ul calss = "social">
 					<li>
@@ -53,16 +53,16 @@
 				</ul>
 				</div>
 			</div>
-			<div class="col-md-8">
+			<div class="col-md-8 col-xs-8 col-sm-8 col-lg-8">
 
 
 				<div>
 					<div class = "row">
-						<div class="col-md-1">
+						<div class="col-md-1 col-xs-1 col-sm-1 col-lg-1">
 							<img src="https://cdn-images-1.medium.com/fit/c/60/60/1*rYalTSXIZUoXfxPgB7VqiA.jpeg" class="avatar-image avatar-image--small" alt="Go to the profile of user">
 
 						</div>
-						<div class="col-md-11">
+						<div class="col-md-11 col-xs-11 col-sm-11 col-lg-11">
 							<a class = "name-user" href="https://medium.com/@farnamstreet?source=post_header_lockup" dir="auto">
 							Shane Parrish
 							</a>
@@ -235,7 +235,7 @@
 					</div>
 				</div>
 				</div>
-				<div class="col-md-2"></div>
+				<div class="col-md-2 col-xs-2 col-sm-2 col-lg-2"></div>
 	</div>
 	</div>
 
@@ -252,7 +252,7 @@
 					<div class = "rel-cat">
 					<div class="row">
 						<!-- <div class="col-md-1"></div> -->
-						<div class="col-md-4 item-review">
+						<div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 item-review">
 							<div class="bac" style = " background-image: url('../images/anh1.png'); ">
 							<!-- ??? -->
 
@@ -264,11 +264,11 @@
 								</div>
 								<div>
 									<div class = "row">
-										<div class="col-md-2">
+										<div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
 											<img src="https://cdn-images-1.medium.com/fit/c/60/60/1*rYalTSXIZUoXfxPgB7VqiA.jpeg" class="avatar-image avatar-image--small" alt="Go to the profile of user">
 
 										</div>
-										<div class="col-md-6">
+										<div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
 											<a class = "name-user" href="https://medium.com/@farnamstreet?source=post_header_lockup" dir="auto">
 											Shane Parrish
 											</a>
@@ -280,7 +280,7 @@
 											</div>
 										</div>
 
-										<div class = "col-md-offset-8">
+										<div class = "col-md-offset-8 col-sm-offset-8 col-xs-offset-8 col-lg-offset-8">
 											<div class="like wow rotateIn" >
 												<a><span class="fa fa-thumbs-o-up" ></span></a>
 											</div>
@@ -290,9 +290,9 @@
 								</div>
 							</div>
 						</div>
-
-						<div class="col-md-4 item-review">
-							<div class="bac" style = " background-image: url(../images/anh1.png);">
+							<!-- <div class="col-md-1"></div> -->
+						<div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 item-review">
+							<div class="bac" style = " background-image: url('../images/anh1.png'); ">
 							<!-- ??? -->
 
 							</div>
@@ -303,11 +303,11 @@
 								</div>
 								<div>
 									<div class = "row">
-										<div class="col-md-2">
+										<div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
 											<img src="https://cdn-images-1.medium.com/fit/c/60/60/1*rYalTSXIZUoXfxPgB7VqiA.jpeg" class="avatar-image avatar-image--small" alt="Go to the profile of user">
 
 										</div>
-										<div class="col-md-6">
+										<div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
 											<a class = "name-user" href="https://medium.com/@farnamstreet?source=post_header_lockup" dir="auto">
 											Shane Parrish
 											</a>
@@ -319,7 +319,7 @@
 											</div>
 										</div>
 
-										<div class = "col-md-offset-8">
+										<div class = "col-md-offset-8 col-sm-offset-8 col-xs-offset-8 col-lg-offset-8">
 											<div class="like wow rotateIn" >
 												<a><span class="fa fa-thumbs-o-up" ></span></a>
 											</div>
@@ -329,8 +329,9 @@
 								</div>
 							</div>
 						</div>
-					<div class="col-md-4 item-review">
-							<div class="bac" style = " background-image: url(../images/anh1.png);">
+							<!-- <div class="col-md-1"></div> -->
+						<div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 item-review">
+							<div class="bac" style = " background-image: url('../images/anh1.png'); ">
 							<!-- ??? -->
 
 							</div>
@@ -341,11 +342,11 @@
 								</div>
 								<div>
 									<div class = "row">
-										<div class="col-md-2">
+										<div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
 											<img src="https://cdn-images-1.medium.com/fit/c/60/60/1*rYalTSXIZUoXfxPgB7VqiA.jpeg" class="avatar-image avatar-image--small" alt="Go to the profile of user">
 
 										</div>
-										<div class="col-md-6">
+										<div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
 											<a class = "name-user" href="https://medium.com/@farnamstreet?source=post_header_lockup" dir="auto">
 											Shane Parrish
 											</a>
@@ -357,7 +358,7 @@
 											</div>
 										</div>
 
-										<div class = "col-md-offset-8">
+										<div class = "col-md-offset-8 col-sm-offset-8 col-xs-offset-8 col-lg-offset-8">
 											<div class="like wow rotateIn" >
 												<a><span class="fa fa-thumbs-o-up" ></span></a>
 											</div>
@@ -367,6 +368,8 @@
 								</div>
 							</div>
 						</div>
+
+					
 
 					</div>
 					</div>
@@ -382,7 +385,7 @@
 
 				<div class="row">
 					<!-- <div class="col-md-3"></div> -->
-					<div class="col-md-offset-3">
+					<div class="col-md-offset-3 col-sm-offset-3 col-xs-offset-3 col-lg-offset-3">
 						<!-- comment -->
 					<div class="cmt">
 						<h3 >Comment</h3>
@@ -409,7 +412,7 @@
 
 										<div calss = "social">
 							<div class="row">
-								<div class="col-md-2">
+								<div class="col-md-2 col-sm-2 col-xs-2 col-lg-2">
 								<div class="heart" >
 								<a><span class=" fa fa-heart-o" ></span></a>
 
@@ -440,7 +443,7 @@
 
 										<div calss = "social">
 							<div class="row">
-								<div class="col-md-2">
+								<div class="col-md-2 col-sm-2 col-xs-2 col-lg-2">
 								<div class="heart" >
 								<a><span class=" fa fa-heart-o" ></span></a>
 
