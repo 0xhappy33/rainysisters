@@ -1,0 +1,141 @@
+.lib-img-show{
+        max-width: 100%;
+}
+.img{
+    width: 40%;
+    float: left;
+}
+.row{
+        margin: 0px 0;
+}
+
+.description {
+    width: 60%;
+    position: relative; 
+    float: left;
+    padding: 0 15px;
+}
+.wrap-content{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: nowrap;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.1)!important;
+}
+.description h2{
+    padding: 0px;
+    margin: 10px 0;
+    font-size: 21px;
+    font-weight: 600;
+}
+.description p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0,0,0,.54)!important;
+}
+.author {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+        padding: 0 15px 0 15px;
+}
+.author img{
+    width: 40px;
+    height: 40px;
+    float: left;
+    border-radius: 50%; 
+}
+.author .author-name {
+    width: calc(100% - 80px);
+    float: left;
+}
+.author .author-name a{
+    color: black;
+}
+.author .author-name p{
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}
+.author span.fa  {
+    font-size: 20px;
+}
+.prod-title {
+    position: relative;
+    margin-bottom: 39px;
+    margin-top: 60px;
+}
+.prod-title h2 {
+    display: inline-block;
+    border-bottom: 1px solid #333;
+    padding: 15px 0;
+    margin: 0;
+    position: relative;
+    z-index: 100;
+    font-size: 22px;
+    font-weight: 600;
+}
+.prod-title:after {
+    content: '';
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #d7d7d7;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.about h2{
+    font-size: 52px;
+    font-weight: 500;
+}
+.img1{
+    width: 50%;
+    float: left;
+}
+.about {
+    width: 60%;
+    position: relative; 
+    float: left;
+    padding: 0 15px;
+}
+.content1{
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 24px;
+}
+#bt1{
+    background: #292929;
+    color: rgba(255, 255, 255, .97);
+    border-color: #292929;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+#bt1:hover{
+    background: #727171;
+}
+#bt2{
+    background-color: white;
+    color: black;
+    border-color: #292929;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+.wrap-about{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: nowrap;
+    background: #fff;
+}
+#wrap-row{
+    margin: 15px 0;
+}
