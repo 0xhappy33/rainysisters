@@ -3,10 +3,15 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Layout</title>
     <link rel="stylesheet" href="../css/categories.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	  <link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
 	  <link rel="stylesheet" href="../css/home.css">
 	  <link rel="stylesheet" href="../css/header.css">
+    <!-- read -->
+    <link rel="stylesheet" href="../css/read.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+	<link rel="stylesheet" href="../css/animate.css">
+    <!-- end read -->
 </head>
