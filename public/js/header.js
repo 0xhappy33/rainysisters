@@ -1,4 +1,4 @@
-<<<<<<< 49a6c8a1f8e858c0028fd48a44955e681aadde29
+
 $(function() { 
 
     $('a[href="#toggle-search"], .navbar-bootsnipp .bootsnipp-search .input-group-btn > .btn[type="reset"]').on('click', function(event) {
