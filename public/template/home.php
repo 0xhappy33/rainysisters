@@ -5,81 +5,7 @@
     <div id="wrapper">
         <div class="container">
             <?php include 'header.php'; ?>
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
-                    <div class="prod-title1">
-                        <h2 >Top Story for you </h2>
-                    </div> 
-                </div>
-            </div>                                                                                                         
-            <div  class="row">
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                    <div class="wrap-content1 clearfix">
-                        <div class="img1">
-                            <img class="lib-img-show-1" src="../images/img11.png" >
-                        </div>
-                        <div class="description1">
-                            <h2>Why Probability Theory Should be Thrown Under the Bus</h2>
-                            <div class="content1">
-                                <p>Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor</p>
-                            </div>
-                            <div class="author1 clearfix">
-                                <img src="../images/per33.png">
-                                <div class="author-name1">
-                                   <a href="#">James Talent</a>
-                                   <p><span>Nov 6</span><span>21 min read</span></p> 
-                                </div>
-                                <span class="fa fa-bookmark-o"></span>
-                                <span class="fa fa-angle-down"></span>
-                            </div>      
-                        </div> 
-                    </div>
-                </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                    <div class="wrap-content1 clearfix">
-                        <div class="img1">
-                            <img class="lib-img-show-1" src="../images/img12.png" >
-                        </div>
-                        <div class="description1">
-                            <h2>Why Probability Theory Should be Thrown Under the Bus</h2>
-                            <div class="content1">
-                                <p>Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor</p>
-                            </div>
-                            <div class="author1 clearfix">
-                                <img src="../images/per22.png">
-                                <div class="author-name1">
-                                   <a href="#">James Talent</a>
-                                   <p><span>Nov 6</span><span>21 min read</span></p> 
-                                </div>
-                                <span class="fa fa-bookmark-o"></span>
-                                <span class="fa fa-angle-down"></span>
-                            </div>      
-                        </div> 
-                    </div>
-                </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                    <div class="wrap-content1 clearfix">
-                        <div class="img1">
-                            <img class="lib-img-show-1" src="../images/img13.png" >
-                        </div>
-                        <div class="description1">
-                            <h2>Why Probability Theory Should be Thrown Under the Bus</h2>
-                            <div class="content1">
-                                <p>Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor</p>
-                            </div>
-                            <div class="author1 clearfix">
-                                <img src="../images/per11.png">
-                                <div class="author-name1">
-                                   <a href="#">James Talent</a>
-                                   <p><span>Nov 6</span><span>21 min read</span></p> 
-                                </div>
-                                <span class="fa fa-bookmark-o"></span>
-                                <span class="fa fa-angle-down"></span>
-                            </div>      
-                        </div> 
-                    </div>
-                </div>
-            </div>
+            
         
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
@@ -103,7 +29,7 @@
                             <div class="author clearfix">
                                 <img src="../images/per1.png">
                                 <div class="author-name">
-                                   <a href="#">James Talent</a>
+                                   <a href="#" >James Talent</a>
                                    <p><span>Nov 6</span><span>21 min read</span></p>
                                 </div>
                                 <span class="fa fa-bookmark-o"></span>
@@ -403,6 +329,81 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+                    <div class="prod-title1">
+                        <h2 >Top Story for you </h2>
+                    </div> 
+                </div>
+            </div>                                                                                                         
+            <div  class="row">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <div class="wrap-content1 clearfix">
+                        <div class="img1">
+                            <img class="lib-img-show-1" src="../images/img11.png" >
+                        </div>
+                        <div class="description1">
+                            <h2>Why Probability Theory </h2>
+                            <div class="content1">
+                                <p>Lorem ipsum dolor Lorem ipsum dolor </p>
+                            </div>
+                            <div class="author1 clearfix">
+                                <img src="../images/per33.png">
+                                <div class="author-name1">
+                                   <a href="#">James Talent</a>
+                                   <p><span>Nov 6</span><span>21 min read</span></p> 
+                                </div>
+                                <span class="fa fa-bookmark-o"></span>
+                                <span class="fa fa-angle-down"></span>
+                            </div>      
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <div class="wrap-content1 clearfix">
+                        <div class="img1">
+                            <img class="lib-img-show-1" src="../images/img12.png" >
+                        </div>
+                        <div class="description1">
+                            <h2>Why Probability Theory Should be Thrown Under the Bus</h2>
+                            <div class="content1">
+                                <p>Lorem ipsum dolor Lorem ipsum dolor</p>
+                            </div>
+                            <div class="author1 clearfix">
+                                <img src="../images/per22.png">
+                                <div class="author-name1">
+                                   <a href="#">James Talent</a>
+                                   <p><span>Nov 6</span><span>21 min read</span></p> 
+                                </div>
+                                <span class="fa fa-bookmark-o"></span>
+                                <span class="fa fa-angle-down"></span>
+                            </div>      
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <div class="wrap-content1 clearfix">
+                        <div class="img1">
+                            <img class="lib-img-show-1" src="../images/img13.png" >
+                        </div>
+                        <div class="description1">
+                            <h2>How to stop worry to have fun</h2>
+                            <div class="content1">
+                                <p>Lorem ipsum dolor Lorem ipsum dolor</p>
+                            </div>
+                            <div class="author1 clearfix">
+                                <img src="../images/per11.png">
+                                <div class="author-name1">
+                                   <a href="#">James Talent</a>
+                                   <p><span>Nov 6</span><span>21 min read</span></p> 
+                                </div>
+                                <span class="fa fa-bookmark-o"></span>
+                                <span class="fa fa-angle-down"></span>
+                            </div>      
+                        </div> 
+                    </div>
+                </div>
+            </div>
 	</div>
   
 
