@@ -296,6 +296,15 @@ img {
   display: inline;
   float:left;
 }
+<<<<<<< HEAD
+=======
+.like span{
+
+    font-size: 30px;
+    padding-top: 5px;
+    margin-left: 10px;
+    color: #33CCCC;
+>>>>>>> login
 
  .like span:hover{
     color: #00FFFF;
@@ -305,7 +314,17 @@ img {
   font-size: 14px;
 }
 
+<<<<<<< HEAD
 
+=======
+.heart span{
+
+    font-size: 30px;
+    padding-top: 5px;
+    margin-left: 10px;
+    color: #33CCCC;
+}
+>>>>>>> login
 
 .like span:hover{
     transform:  scale(1.5);
@@ -323,7 +342,12 @@ img {
   background: #fff;
  /* box-shadow: -5px -5px 5px #666;*/
   padding: 20px 0px 0px 20px;
+<<<<<<< HEAD
     border-radius: 5px;
+=======
+  border: none;
+  border-radius: 5px;
+>>>>>>> login
   border: 1px solid #0f0e0e;
 }
 .cmt h3{
@@ -345,7 +369,11 @@ img {
 .text-cmt .user-name{
   color: #00CC99;
   font-size: 13px;
+<<<<<<< HEAD
     font-family: 'Pacifico', serif;
+=======
+  font-family:'Pacifico';
+>>>>>>> login
 }
 .text-cmt .time-cmt{
   font-size: 13px;
