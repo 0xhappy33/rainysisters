@@ -1,0 +1,10 @@
+#toTop{
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	cursor: pointer;
+	display: none;
+	background: none ;
+	border-color: rgb(95, 176, 228);
+    color: #00698c
+}

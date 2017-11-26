@@ -5,13 +5,14 @@
     width: 40%;
     float: left;
 }
+
 .row{
         margin: 0px 0;
 }
 
 .description {
     width: 60%;
-    position: relative; 
+    position: relative;
     float: left;
     padding: 0 15px;
 }
@@ -47,7 +48,7 @@
     width: 40px;
     height: 40px;
     float: left;
-    border-radius: 50%; 
+    border-radius: 50%;
 }
 .author .author-name {
     width: calc(100% - 80px);
@@ -66,14 +67,13 @@
 .prod-title {
     position: relative;
     margin-bottom: 39px;
-    margin-top: 60px;
+    margin-top: 120px;
 }
 .prod-title h2 {
     display: inline-block;
     border-bottom: 1px solid #333;
     padding: 15px 0;
     margin: 0;
-    position: relative;
     z-index: 100;
     font-size: 22px;
     font-weight: 600;
@@ -97,7 +97,7 @@
 }
 .about {
     width: 60%;
-    position: relative; 
+    position: relative;
     float: left;
     padding: 0 15px;
 }
@@ -138,4 +138,99 @@
 }
 #wrap-row{
     margin: 15px 0;
+}
+
+.lib-img-show-1{
+    max-width: 100%;
+    height : 275px;
+}
+.img1{
+    width: 100%;
+}
+
+.description1 {
+    width: 100%;
+    position: relative; 
+    float: left;
+    padding: 0 15px;
+    height: 278px;
+}
+.description1 h2{
+    padding: 0px;
+    margin: 10px 0;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.description1 p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.author1 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 70px 15px 0 15px;
+}
+
+.author1 img{
+    width: 40px;
+    height: 40px;
+    float: left;
+    border-radius: 3px; 
+}
+
+.author1 .author-name1 {
+    width: calc(100% - 80px);
+    float: left;
+}
+
+.author1 .author-name1 a{
+    color: black;
+}
+
+.author1 .author-name1 p{
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}
+
+.author1 span.fa  {
+    font-size: 20px;
+}
+
+.prod-title1{
+    position: relative;
+    margin-bottom: 39px;
+}
+
+.prod-title1 h2 {
+    display: inline-block;
+    border-bottom: 1px solid #333;
+    padding: 15px 0;
+    margin: 0;
+    position: relative;
+    z-index: 100;
+    font-size: 22px;
+    font-weight: 600;
+    background-color: white ;
+}
+
+.prod-title1 : after {
+    content: '';
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #d7d7d7;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.wrap-content1 {
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.1)!important;
+}
+.prod-title1 {
+    position: relative;
+    margin-bottom: 39px;
+    margin-top: 120px;
 }
