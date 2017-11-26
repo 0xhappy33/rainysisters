@@ -28,7 +28,7 @@
                         </div>
                     </form>
                 </li>
-                <li><a href="#" class="animate ">Home</a></li>
+                <li><a href="read.php" class="animate ">Home</a></li>
                 <li class="dropdown mega-dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Categories <span class="caret"></span></a>
                     <ul class="dropdown-menu mega-dropdown-menu">
@@ -65,7 +65,7 @@
                     </ul>
                 </li>
                 <li><a href="#">Review</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="contact.php">Contact</a></li>
                 <li><a href="login.php" data-target="#myModal">Login</a></li>
                 <li class="hidden-xs "><a href="#toggle-search" class="animate "><span class="glyphicon glyphicon-search "></span></a></li>
             </ul>

@@ -528,11 +528,10 @@
 
     </div>
 
-    <!-- <div id="on_top">
-        <a href="#top"><img src="images/up.png" alt="up to header"></a>
-    </div> -->
     <div class="top">
-        <a href="#" style="color: #ccc; font-size: 24px;"><i class="sc fa fa-angle-up" id="cuon" aria-hidden="true"></i></a>
+        <a href="#" style="color: #ccc; font-size: 24px;">
+            <i class="sc fa fa-angle-up" id="cuon" aria-hidden="true"></i>
+        </a>
     </div>
 
 
