@@ -1,12 +1,9 @@
 <?php include('server.php') ?>
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Registration system PHP and MySQL</title>
-	<link rel="stylesheet" type="text/css" href="../css/style.css">
-</head>
+	<?php include 'layout.php'; ?>
 <body>
-
+	<?php include 'header.php'; ?>
 	<div class="header">
 		<h2>Login</h2>
 	</div>
@@ -31,6 +28,7 @@
 		</p>
 	</form>
 
+        <?php include 'script.php'; ?>
 
 </body>
 </html>
