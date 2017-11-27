@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="en">
-    <?php include 'layout.php'; ?>
+    <?php include '../layout/layout.php'; ?>
 <body>
 <div id="wrapper">
-    <?php include 'header.php'; ?>
-    <main>
+    <?php include '../layout/header.php'; ?>
+    <main class="main-categories">
         <div class="container">
             <div class="title-topics">
                 <div class="row">
@@ -82,8 +82,8 @@
             </div>
         </div>
     </main>
-    <?php include 'footer.php';?>
-    <?php include 'script.php'; ?>
+    <?php include '../layout/footer.php';?>
 </div>
+<?php include '../layout/script.php'; ?>
 </body>
 </html>

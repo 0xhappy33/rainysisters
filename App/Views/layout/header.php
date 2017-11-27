@@ -9,8 +9,8 @@
                 <span class="icon-bar "></span>
                 <span class="icon-bar "></span>
             </button>
-            <div class="animbrand ">
-                <a class="navbar-brand animate " href="#">Rainysister</a>
+            <div class="animbrand">
+                <a class="navbar-brand animate " href="../template/home.php">Rainysister</a>
             </div>
         </div>
 
@@ -28,45 +28,45 @@
                         </div>
                     </form>
                 </li>
-                <li><a href="read.php" class="animate ">Home</a></li>
+                <li><a href="../template/home.php" class="animate ">Home</a></li>
                 <li class="dropdown mega-dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Categories <span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Categories<span class="caret"></span></a>
                     <ul class="dropdown-menu mega-dropdown-menu">
                         <li class="col-sm-2">
                             <ul>
-                                <li class="dropdown-header">Technology</li>
+                                <li class="dropdown-header"><a href="#">Technology</a></li>
                             </ul>
                         </li>
                         <li class="col-sm-2">
                             <ul>
-                                <li class="dropdown-header">Creativity</li>
+                                <li class="dropdown-header"><a href="#">Creativity</a></li>
                             </ul>
                         </li>
                         <li class="col-sm-2">
                             <ul>
-                                <li class="dropdown-header">Self</li>
+                                <li class="dropdown-header"><a href="#">Self</a></li>
                             </ul>
                         </li>
                         <li class="col-sm-2">
                             <ul>
-                                <li class="dropdown-header">Culture</li>
+                                <li class="dropdown-header"><a href="#">Culture</a></li>
                             </ul>
                         </li>
                         <li class="col-sm-2">
                             <ul>
-                                <li class="dropdown-header">Entrepreneuship</li>
+                                <li class="dropdown-header"><a href="#">Entrepreneurship</a></li>
                             </ul>
                         </li>
                         <li class="col-sm-2">
                             <ul>
-                                <li class="dropdown-header">Politics</li>
+                                <li class="dropdown-header"><a href="#">Politics</a></li>
                             </ul>
                         </li>
                     </ul>
                 </li>
                 <li><a href="#">Review</a></li>
-                <li><a href="contact.php">Contact</a></li>
-                <li><a href="login.php" data-target="#myModal">Login</a></li>
+                <li><a href="../template/contact.php">Contact</a></li>
+                <li><a href="../template/login.php" data-target="#myModal">Login</a></li>
                 <li class="hidden-xs "><a href="#toggle-search" class="animate "><span class="glyphicon glyphicon-search "></span></a></li>
             </ul>
         </div>

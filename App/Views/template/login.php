@@ -1,17 +1,15 @@
 <?php include('server.php') ?>
 <!DOCTYPE html>
 <html>
-<?php include 'layout.php'; ?>
+<?php include '../layout/layout.php'; ?>
 <body>
-<?php include 'header.php'; ?>
+<?php include '../layout/header.php'; ?>
 <main class="main_login">
     <div class="header">
         <h2>Login</h2>
     </div>
     <form method="post" action="login.php">
-
         <?php include('errors.php'); ?>
-
         <div class="input-group">
             <label for="username">Username</label>
             <input type="text" name="username" id="username">
@@ -29,8 +27,8 @@
     </form>
 </main>
 
-<?php include 'footer.php'; ?>
-<?php include 'script.php'; ?>
+<?php include '../layout/footer.php'; ?>
+<?php include '../layout/script.php'; ?>
 
 </body>
 </html>

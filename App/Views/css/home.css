@@ -1,13 +1,10 @@
-.lib-img-show{
-        max-width: 100%;
-}
-.img{
-    width: 40%;
-    float: left;
+.lib-img-show {
+    max-width: 100%;
 }
 
-.row{
-        margin: 0px 0;
+.img {
+    width: 40%;
+    float: left;
 }
 
 .description {
@@ -16,7 +13,8 @@
     float: left;
     padding: 0 15px;
 }
-.wrap-content{
+
+.wrap-content {
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
@@ -24,51 +22,61 @@
     display: flex;
     flex-wrap: nowrap;
     background: #fff;
-    border: 1px solid rgba(0,0,0,.1)!important;
+    border: 1px solid rgba(0, 0, 0, .1) !important;
 }
-.description h2{
-    padding: 0px;
+
+.description h2 {
+    padding: 0;
     margin: 10px 0;
     font-size: 21px;
     font-weight: 600;
 }
-.description p{
+
+.description p {
     font-size: 16px;
     font-weight: 400;
-    color: rgba(0,0,0,.54)!important;
+    color: rgba(0, 0, 0, .54) !important;
 }
+
 .author {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
-        padding: 0 15px 0 15px;
+    padding: 0 15px 0 15px;
 }
-.author img{
+
+.author img {
     width: 40px;
     height: 40px;
     float: left;
     border-radius: 50%;
 }
+
 .author .author-name {
-    width: calc(100% - 80px);
+    width: calc(100% - 81px);
     float: left;
+    margin-left: 10px;
 }
-.author .author-name a{
+
+.author .author-name a {
     color: black;
 }
-.author .author-name p{
+
+.author .author-name p {
     font-size: 15px;
-    color: rgba(0,0,0,.54);
+    color: rgba(0, 0, 0, .54);
 }
-.author span.fa  {
+
+.author span.fa {
     font-size: 20px;
 }
+
 .prod-title {
     position: relative;
     margin-bottom: 39px;
-    margin-top: 120px;
 }
+
 .prod-title h2 {
     display: inline-block;
     border-bottom: 1px solid #333;
@@ -78,6 +86,7 @@
     font-size: 22px;
     font-weight: 600;
 }
+
 .prod-title:after {
     content: '';
     display: block;
@@ -87,26 +96,31 @@
     bottom: 0;
     left: 0;
 }
-.about h2{
+
+.about h2 {
     font-size: 52px;
     font-weight: 500;
 }
-.img1{
-    width: 50%;
+
+.img1 {
+    width: 100%;
     float: left;
 }
+
 .about {
     width: 60%;
     position: relative;
     float: left;
     padding: 0 15px;
 }
-.content1{
+
+.content1 {
     font-size: 19px;
     font-weight: 400;
     line-height: 24px;
 }
-#bt1{
+
+#bt1 {
     background: #292929;
     color: rgba(255, 255, 255, .97);
     border-color: #292929;
@@ -115,10 +129,12 @@
     font-size: 14px;
     font-weight: 400;
 }
-#bt1:hover{
+
+#bt1:hover {
     background: #727171;
 }
-#bt2{
+
+#bt2 {
     background-color: white;
     color: black;
     border-color: #292929;
@@ -127,7 +143,8 @@
     font-size: 14px;
     font-weight: 400;
 }
-.wrap-about{
+
+.wrap-about {
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
@@ -136,33 +153,32 @@
     flex-wrap: nowrap;
     background: #fff;
 }
-#wrap-row{
-    margin: 15px 0;
+
+#wrap-row {
+    margin: 20px 0;
 }
 
-.lib-img-show-1{
+.lib-img-show-1 {
     max-width: 100%;
-    height : 275px;
-}
-.img1{
-    width: 100%;
+    height: 275px;
 }
 
 .description1 {
     width: 100%;
-    position: relative; 
+    position: relative;
     float: left;
     padding: 0 15px;
     height: 278px;
 }
-.description1 h2{
-    padding: 0px;
+
+.description1 h2 {
+    padding: 0;
     margin: 10px 0;
     font-size: 21px;
     font-weight: 600;
 }
 
-.description1 p{
+.description1 p {
     font-size: 16px;
     font-weight: 400;
 }
@@ -174,32 +190,33 @@
     padding: 70px 15px 0 15px;
 }
 
-.author1 img{
+.author1 img {
     width: 40px;
     height: 40px;
     float: left;
-    border-radius: 3px; 
+    border-radius: 3px;
 }
 
 .author1 .author-name1 {
-    width: calc(100% - 80px);
+    width: calc(100% - 81px);
     float: left;
+    margin-left: 10px;
 }
 
-.author1 .author-name1 a{
+.author1 .author-name1 a {
     color: black;
 }
 
-.author1 .author-name1 p{
+.author1 .author-name1 p {
     font-size: 15px;
-    color: rgba(0,0,0,.54);
+    color: rgba(0, 0, 0, .54);
 }
 
-.author1 span.fa  {
+.author1 span.fa {
     font-size: 20px;
 }
 
-.prod-title1{
+.prod-title1 {
     position: relative;
     margin-bottom: 39px;
 }
@@ -213,10 +230,10 @@
     z-index: 100;
     font-size: 22px;
     font-weight: 600;
-    background-color: white ;
+    background-color: white;
 }
 
-.prod-title1 : after {
+.prod-title1:after {
     content: '';
     display: block;
     width: 100%;
@@ -225,10 +242,12 @@
     bottom: 0;
     left: 0;
 }
+
 .wrap-content1 {
     background: #fff;
-    border: 1px solid rgba(0,0,0,.1)!important;
+    border: 1px solid rgba(0, 0, 0, .1) !important;
 }
+
 .prod-title1 {
     position: relative;
     margin-bottom: 39px;
