@@ -34,37 +34,18 @@
                     <li><a href="../template/home.php" class="animate ">Home</a></li>
                     <li class="dropdown mega-dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Categories<span class="caret"></span></a>
+
                         <ul class="dropdown-menu mega-dropdown-menu">
+                        <?php 
+                            include '../../Controller/CategoriesController.php';
+                            foreach ($resultSet as $row) {
+                        ?>
                             <li class="col-sm-2">
                                 <ul>
-                                    <li class="dropdown-header"><a href="#">Technology</a></li>
+                                    <li class="dropdown-header"><a href="#"><?php echo $row['catName'];?></a></li>
                                 </ul>
                             </li>
-                            <li class="col-sm-2">
-                                <ul>
-                                    <li class="dropdown-header"><a href="#">Creativity</a></li>
-                                </ul>
-                            </li>
-                            <li class="col-sm-2">
-                                <ul>
-                                    <li class="dropdown-header"><a href="#">Self</a></li>
-                                </ul>
-                            </li>
-                            <li class="col-sm-2">
-                                <ul>
-                                    <li class="dropdown-header"><a href="#">Culture</a></li>
-                                </ul>
-                            </li>
-                            <li class="col-sm-2">
-                                <ul>
-                                    <li class="dropdown-header"><a href="#">Entrepreneurship</a></li>
-                                </ul>
-                            </li>
-                            <li class="col-sm-2">
-                                <ul>
-                                    <li class="dropdown-header"><a href="#">Politics</a></li>
-                                </ul>
-                            </li>
+                        <?php } ?>
                         </ul>
                     </li>
                     <li><a href="#">Review</a></li>
