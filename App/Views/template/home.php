@@ -25,7 +25,10 @@
                                 <img class="lib-img-show" src="../images/img1.png">
                             </div>
                             <div class="description">
-                                <h2>Why Probability Theory Should be Thrown Under the Bus</h2>
+                                <h2>
+                                    <a href="../template/read.php" class="title-post">
+                                        Why Probability Theory Should be Thrown Under the Bus</a>
+                                </h2>
                                 <div class="content">
                                     <p>Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor </p>
                                 </div>
@@ -47,7 +50,11 @@
                                 <img class="lib-img-show" src="../images/img2.png">
                             </div>
                             <div class="description">
-                                <h2>Creative People Won’t Survive the Future Without Doing These 3 Things</h2>
+                                <h2>
+                                    <a class="title-post" href="#">
+                                        Creative People Won’t Survive the Future Without Doing These 3 Things
+                                    </a>
+                                </h2>
                                 <div class="content">
                                     <p>The writing is on the wall.</p>
                                 </div>
@@ -71,7 +78,7 @@
                                 <img class="lib-img-show" src="../images/img3.png">
                             </div>
                             <div class="description">
-                                <h2>Something is wrong on the internet</h2>
+                                <h2><a href="#" class="title-post">Something is wrong on the internet</a></h2>
                                 <div class="content">
                                     <p>I’m James Bridle. I’m a writer and artist concerned with technology and culture. I
                                         usually write on my own blog, but frankly I don’t want…</p>
@@ -94,7 +101,7 @@
                                 <img class="lib-img-show" src="../images/img4.png">
                             </div>
                             <div class="description">
-                                <h2>Creative People Won’t Survive the Future Without Doing These 3 Things</h2>
+                                <h2><a href="#" class="title-post">Creative People Won’t Survive the Future Without Doing These 3 Things</a></h2>
                                 <div class="content">
                                     <p>The writing is on the wall.</p>
                                 </div>
@@ -126,7 +133,7 @@
                             </div>
                             <div class="author clearfix">
                                 <button type="button" class="btn btn-success" id="bt1">Get Started</button>
-                                <button type="button" class="btn btn-success" id="bt2">Learn More</button>
+                                <button type="button" class="btn btn-outline-secondary" id="bt2">Learn More</button>
                             </div>
                         </div>
                         <div class="img1">
@@ -351,7 +358,7 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <div class="prod-title1">
-                        <h2>Top Story for you </h2>
+                        <h2>Top Story for you</h2>
                     </div>
                 </div>
             </div>

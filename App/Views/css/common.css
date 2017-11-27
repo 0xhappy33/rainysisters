@@ -6,15 +6,6 @@
     word-wrap: break-word;
 }
 
-html {
-    font-family: sans-serif;
-    /*background: #fafafa !important;*/
-}
-
-body{
-    /*background-color: #fafafa;*/
-}
-
 a {
     text-decoration: none;
 }
@@ -25,7 +16,6 @@ a:hover {
 
 main{
     margin-top: 100px;
-    background-color: white;
-    margin-bottom: 20px;
+    font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",Geneva,Arial,sans-serif;
 }
 

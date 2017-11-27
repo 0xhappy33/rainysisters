@@ -3,7 +3,7 @@
   position: static !important;
 }
 .mega-dropdown-menu {
-    padding: 20px 0px;
+    padding: 20px 0;
     width: 100%;
     box-shadow: none;
     -webkit-box-shadow: none;
@@ -51,12 +51,10 @@
   color: #333;
   border: 1px solid #ddd;
 }
+
 nav.navbar.menu {
     border-bottom: 1px solid rgba(0,0,0,.54);
 }
-
-
-
 
 .animate {
     -webkit-transition: all 0.3s ease-in-out;
@@ -68,9 +66,9 @@ nav.navbar.menu {
 
 .navbar-bootsnipp {
     background-color: rgb(255, 255, 255);
-	border-color: rgb(95, 176, 228);
-	border-radius: 0px;
-	margin-bottom: 0px;
+	box-shadow: 0 2px 2px -2px rgba(0,0,0,.15);
+	border-radius: 0;
+	margin-bottom: 0;
 	z-index: 100;
 }
 .navbar-bootsnipp:nth-of-type(2) {
@@ -80,11 +78,11 @@ nav.navbar.menu {
 
 .navbar-bootsnipp.affix-top {
 	position: absolute;
-	top: 0px;
+	top: 0;
 	width: 100%;
 }
 .navbar-bootsnipp.affix {
-	top: 0px;
+	top: 0;
 	width: 100%;
 }
 .navbar-bootsnipp .navbar-toggle .icon-bar {
@@ -98,14 +96,14 @@ nav.navbar.menu {
 }
 
 .navbar-bootsnipp .navbar-nav > li > a {
-	border: 0px solid rgb(95, 176, 228);
+	border: 0 solid rgb(95, 176, 228);
 	color: rgb(120, 120, 120);
 	padding: 15px 14px;
 }
 
 .navbar-bootsnipp .navbar-nav > li > form > .input-group > input,
 .navbar-bootsnipp .navbar-nav > li > form > .input-group > .input-group-btn > .btn {
-	border-radius: 0px;
+	border-radius: 0;
 }
 
 .navbar-bootsnipp .navbar-nav > li:not(.disabled).open > a,
@@ -169,17 +167,17 @@ nav.navbar.menu {
 }
 .navbar-bootsnipp .bootsnipp-search .form-control {
 	background-color: rgb(235, 235, 235);
-	border-radius: 0px;
-	border-width: 0px;
+	border-radius: 0;
+	border-width: 0;
 	font-size: 24px;
-	padding: 30px 0px;
+	padding: 30px 0;
 }
 .navbar-bootsnipp .bootsnipp-search .form-control {
 	background-color: rgb(235, 235, 235);
-	border-radius: 0px;
-	border-width: 0px;
+	border-radius: 0;
+	border-width: 0;
 	font-size: 24px;
-	padding: 25px 0px;
+	padding: 25px 0;
 }
 .navbar-bootsnipp .bootsnipp-search .form-control:focus {
 	border-color: transparent;
@@ -189,7 +187,7 @@ nav.navbar.menu {
 }
 .navbar-bootsnipp .bootsnipp-search .input-group-btn > .btn {
 	padding: 14px 16px;
-	border-radius: 0px;
+	border-radius: 0;
 }
 .navbar-bootsnipp .bootsnipp-search .input-group-btn > .btn.active,
 .navbar-bootsnipp .bootsnipp-search .input-group-btn > .btn:hover,
@@ -218,7 +216,7 @@ nav.navbar.menu {
 	.navbar-bootsnipp .navbar-nav > li:not(.disabled) > a:hover,
 	.navbar-bootsnipp .navbar-nav > li:not(.disabled) > a:focus {
 		border-bottom-width: 5px;
-		border-left-width: 0px;
+		border-left-width: 0;
 		padding-bottom: 10px;
 		padding-left: 14px;
 	}
@@ -256,6 +254,6 @@ nav.navbar.menu {
 		visibility: visible;
 	}
 	.navbar-bootsnipp .bootsnipp-search > .container {
-		padding: 0px;
+		padding: 0;
 	}
 }

@@ -7,8 +7,9 @@
     float: left;
 }
 
-.description {
+.wrap-content .description {
     width: 60%;
+    height: inherit;
     position: relative;
     float: left;
     padding: 0 15px;
@@ -23,6 +24,7 @@
     flex-wrap: nowrap;
     background: #fff;
     border: 1px solid rgba(0, 0, 0, .1) !important;
+    height: auto;
 }
 
 .description h2 {
@@ -32,11 +34,6 @@
     font-weight: 600;
 }
 
-.description p {
-    font-size: 16px;
-    font-weight: 400;
-    color: rgba(0, 0, 0, .54) !important;
-}
 
 .author {
     position: absolute;
@@ -97,6 +94,17 @@
     left: 0;
 }
 
+.title-post{
+    font-size: 22px;
+    color: #292929;
+}
+
+.wrap-content .description .content p{
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(0, 0, 0, .54) !important;
+}
+
 .about h2 {
     font-size: 52px;
     font-weight: 500;
@@ -123,11 +131,8 @@
 #bt1 {
     background: #292929;
     color: rgba(255, 255, 255, .97);
-    border-color: #292929;
     padding: 6px 12px;
-    margin-bottom: 0;
-    font-size: 14px;
-    font-weight: 400;
+
 }
 
 #bt1:hover {
@@ -135,13 +140,11 @@
 }
 
 #bt2 {
-    background-color: white;
-    color: black;
-    border-color: #292929;
     padding: 6px 12px;
-    margin-bottom: 0;
-    font-size: 14px;
-    font-weight: 400;
+}
+
+#bt2:hover {
+    background: #727171;
 }
 
 .wrap-about {
