@@ -38,17 +38,16 @@
                         <ul class="dropdown-menu mega-dropdown-menu">
                         <?php 
                             include '../../Controller/CategoriesController.php';
-                            foreach ($resultSet as $row) {
-                        ?>
+                            foreach ($resultSet as $row) : ?>
                             <li class="col-sm-2">
                                 <ul>
                                     <li class="dropdown-header"><a href="#"><?php echo $row['catName'];?></a></li>
                                 </ul>
                             </li>
-                        <?php } ?>
+                        <?php endforeach; ?>
                         </ul>
                     </li>
-                    <li><a href="#">Review</a></li>
+                    <li><a href="../template/new-story.php">Review</a></li>
                     <li><a href="../template/contact.php">Contact</a></li>
                     <li><a href="../template/login.php" data-target="#myModal">Login</a></li>
                     <li class="hidden-xs "><a href="#toggle-search" class="animate "><span
