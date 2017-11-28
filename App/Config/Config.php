@@ -14,7 +14,7 @@
     );
     // Create a new PDO instanace
     try {
-    $db = new PDO($dsn, 'root', '123', $options);
+    $db = new PDO($dsn, 'root', '', $options);
     }
     // Catch any errors
     catch (PDOException $e) {
