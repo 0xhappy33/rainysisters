@@ -1,0 +1,21 @@
+* {
+    font-family: medium-content-serif-font, Georgia, Cambria, "Roboto", Times, serif;
+    font-style: normal;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+    word-wrap: break-word;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+main{
+    margin-top: 100px;
+    font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",Geneva,Arial,sans-serif;
+}
+
