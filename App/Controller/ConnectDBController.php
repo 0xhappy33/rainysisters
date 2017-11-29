@@ -8,6 +8,7 @@
     // Create a new PDO instanace
     try {
     $db = new PDO($dsn, 'root', '', $options);
+    echo "succed";
     }
     // Catch any errors
     catch (PDOException $e) {

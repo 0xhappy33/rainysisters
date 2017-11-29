@@ -1,5 +1,4 @@
-.main-new-story{
-    background-color: #fafafa;
+.new-story{
     margin-top: 10px;
 }
 .widget-area.blank {
@@ -10,11 +9,20 @@
     -o-box-shadow: none;
     box-shadow: none;
 }
-
+.medium-editor-element textarea{
+min-height: 300px !important;
+}
 body .no-padding {
     padding: 0;
 }
-
+/*.editable,
+.secondEditable
+ {
+    outline: none;
+    margin: 0 0 20px 0;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid #dbdbdb;
+}*/
 .widget-area {
     background-color: #fff;
     -webkit-border-radius: 4px;
@@ -35,7 +43,7 @@ body .no-padding {
 }
 
 .status-upload {
-    background: none repeat scroll 0 0 #f5f5f5;
+    background: none repeat scroll 0 0 white;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
@@ -108,7 +116,7 @@ body .no-padding {
 }
 
 .status-upload ul > li > a:hover {
-    background: none repeat scroll 0 0 #606060;
+    /*background: none repeat scroll 0 0 #606060;*/
     color: #fff;
 }
 

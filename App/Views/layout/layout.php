@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- read -->
     <link rel="stylesheet" href="../css/read.css">
     <link rel="stylesheet" href="../css/font-awesome.min.css">
@@ -23,5 +23,8 @@
     <link rel="stylesheet" href="../css/top.css">
     <link rel="stylesheet" href="../css/login.css">
     <link rel="stylesheet" href="../css/new-story.css">
+<!-- medium -->
+    <link rel="stylesheet" href="../../../libs/medium-editor/dist/css/medium-editor.css">
+    <link rel="stylesheet" href="../../../libs/medium-editor/dist/css/themes/default.css" id="medium-editor-theme">
 
 </head>

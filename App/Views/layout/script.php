@@ -17,3 +17,4 @@
 <script src="../js/header.js"></script>
 <script src="../js/top.js"></script>
 <script src="../js/new-story.js"></script>
+<script src="../../../libs/medium-editor/dist/js/medium-editor.js"></script>
