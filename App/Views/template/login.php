@@ -16,11 +16,11 @@
                     <?php include('errors.php'); ?>
                     <div class="input-group">
                         <label for="username">Username</label>
-                        <input type="text" name="username" id="username" placeholder="username">
+                        <input type="text" name="username" id="username" required placeholder="username">
                     </div>
                     <div class="input-group">
                         <label for="password">Password</label>
-                        <input type="password" name="password" id="password" placeholder="password">
+                        <input type="password" name="password" id="password" required placeholder="password">
                     </div>
                     <div class="input-group">
                         <button type="submit" class="btn btn-success" name="login_user">Login</button>

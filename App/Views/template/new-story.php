@@ -13,19 +13,25 @@
                     <div class="widget-area no-padding blank">
                         <div class="status-upload" >
                             <form>
-                                <input class="form-control" placeholder="Name Of books"> </input>
-                                  <div class="form-group">
-                                    <br/>
-                                    <label for="exampleFormControlSelect1">Categories</label>
-                                    <br/>
-                                    <select class="form-control" id="categories">
-                                      <option>1</option>
-                                      <option>2</option>
-                                      <option>3</option>
-                                      <option>4</option>
-                                      <option>5</option>
-                                    </select>
-                                  </div>
+                                <input class="form-control" required placeholder="Name Of books"> </input>
+                                <div class="form-group">
+                                <label>Categories</label>
+                              
+                                <select class="form-control" name = "category">
+                                      <?php $sql = "select * from categories";
+                                $res = mysql_query($sql);
+                                if($res) {
+                                    while($row=  mysql_fetch_assoc($res)) {
+                                        ?>
+                                      <option value = "<?php echo $row['id']?>">
+                                                       <?php echo $row['name']?>
+                                      </option>
+                                    
+                                   <?php       }
+                                    }
+                                   ?>
+                        </select>
+                    </div>
                                 <button type="button" onclick="show()" class="btn btn-success green"><i class="fa fa-hand-o-right" ></i> StartReview
                                 </button>
                                 <br>
